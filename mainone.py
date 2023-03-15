@@ -1,6 +1,6 @@
-# Python script to create separate shapefiles for each of the three forward positions within the boundary of Sweden using NHL's undocumented statistics API
+# Different approach to create separate shapefiles for each of the three forward positions within Sweden. 
 
-# Import necessary libraries
+# Import 
 import arcpy
 import requests
 import json
