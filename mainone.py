@@ -7,8 +7,8 @@ import json
 import shapefile
 
 # Define the country and positions
-countriesW84 = r"C:\Users\TQuar\Desktop\Codeschool\week 8.5\Countries_WGS84.shp"
-nhl_roster = r"C:\Users\TQuar\Desktop\Codeschool\week 8.5\nhlrosters.shp"
+countriesW84 = "C://Users//TQuar//Desktop//Codeschool//week 8.5//Countries_WGS84.shp"
+nhl_roster = "C://Users//TQuar//Desktop//Codeschool//week 8.5//nhlrosters.shp"
 country = "Sweden"
 positions = ["C", "RW", "LW"]
 
