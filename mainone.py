@@ -1,11 +1,14 @@
 # Python script to create separate shapefiles for each of the three forward positions within the boundary of Sweden using NHL's undocumented statistics API
 
 # Import necessary libraries
+import arcpy
 import requests
 import json
 import shapefile
 
 # Define the country and positions
+countriesW84 = r"C:\Users\TQuar\Desktop\Codeschool\week 8.5\Countries_WGS84.shp"
+nhl_roster = r"C:\Users\TQuar\Desktop\Codeschool\week 8.5\nhlrosters.shp"
 country = "Sweden"
 positions = ["C", "RW", "LW"]
 
